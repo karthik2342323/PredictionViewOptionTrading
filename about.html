@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - Option Trading Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+   <style>
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 30px;
+    }
+    .product-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: 0.3s;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+    .product-card h3 {
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+    .product-card p {
+      color: #555;
+      margin-bottom: 8px;
+    }
+    .price {
+      font-size: 1.3em;
+      font-weight: bold;
+      color: #0077cc;
+    }
+    .price-title {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+
+    .price-sub {
+      color: #666;
+      margin: 4px 0; 
+     }    
+    .demo-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #0077cc;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .demo-btn:hover {
+      background: #005fa3;
+    }
+  </style>  
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <h1>Prediction View Option Trading Solutions</h1>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  </div>
+
+  <!-- Sidebar Menu -->
+  <div class="nav-links" id="navLinks">
+    <div class="close-btn" onclick="toggleMenu()">✖</div>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="services.html">Services</a>
+    <a href="about.html" class="active">About</a>
+  </div>
+
+  <!-- About Section -->
+  <section>
+    <h2>About Us</h2>
+    <p>
+      At <strong>Option Trading Solutions</strong>, we specialize in providing 
+      professional-grade tools, insights, and advisory services for derivative 
+      and equity traders. Our mission is to simplify complex market data and 
+      empower traders with reliable predictions and strategies.
+    </p>
+    <p>
+      From <em>Nifty, Bank Nifty, Sensex</em> to <em>FinNifty</em>, our 
+      solutions cover a wide range of indices, giving you the confidence to 
+      make informed decisions in real time.
+    </p>
+  </section>
+
+  <!-- Mission & Vision Cards -->
+  <section>
+    <h2>Our Mission & Vision</h2>
+    <div class="projects">
+
+      <div class="project-card">
+        <div class="advisory-card">
+          <h3>Our Mission</h3>
+          <p>
+            To provide accurate, accessible, and affordable trading tools 
+            for both beginners and professionals, helping them achieve 
+            consistent growth in financial markets.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="advisory-card">
+          <h3>Our Vision</h3>
+          <p>
+            To become the most trusted partner for traders globally by 
+            combining cutting-edge technology, expert research, and 
+            personalized advisory services.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Info -->
+  <section>
+    <h2>Get in Touch</h2>
+    <p><strong>Email:</strong> makwanakartik53@gmail.com</p>
+    <p><strong>WhatsApp:</strong> +91 96992 44705</p>
+    <div class="project-card">
+      <a href="mailto:makwanakartik53@gmail.com" class="demo-btn">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>Contact Us via </p> 
+    <p>Email      makwanakartik53@gmail.com</p> 
+    <p>Phone no  +91 96992 44705</p>            
+    <p>© 2025 Prediction View Option Trading Solutions</p>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('show');
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products - Option Trading Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+   <style>
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 30px;
+    }
+    .product-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: 0.3s;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+    .product-card h3 {
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+    .product-card p {
+      color: #555;
+      margin-bottom: 8px;
+    }
+    .price {
+      font-size: 1.3em;
+      font-weight: bold;
+      color: #0077cc;
+    }
+    .price-title {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+
+    .price-sub {
+      color: #666;
+      margin: 4px 0; 
+     }    
+    .demo-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #0077cc;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .demo-btn:hover {
+      background: #005fa3;
+    }
+  </style>
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <h1>Prediction View Option Trading Solutions</h1>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  </div>
+
+  <!-- Sidebar Menu -->
+  <div class="nav-links" id="navLinks">
+    <div class="close-btn" onclick="toggleMenu()">✖</div>
+    <a href="index.html">Home</a>
+    <a href="products.html" class="active">Products</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+  </div>
+
+  <!-- Products Content -->
+  <section>
+    <h2>Our Trading Tools</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Derivative Prediction Tool - Basic</h3>
+        <p>Sensex Nifty prediction tool CALL PUT Prediction .Range cover CALL PUT 20 - 100   , 1 year license ,Platform  Windows , MAC , IOS , Android .  </p>
+        <!-- <div class="pricing-box">
+           <h4>Pricing Details</h4>
+           <p>1 Year License</p>
+           <p class="price">₹1000</p>
+        </div>
+        -->
+
+        <h4 class="price-title">Pricing Details</h4>
+        <p class="price-sub">1 Year License</p>
+        <p class="price">₹1000</p>        
+        
+
+        <!-- 
+        <h3>Pricing </h3>
+        <p>1000 rs  </p>
+
+         -->
+      </div>
+      <div class="project-card">
+        <h3>Derivative Prediction Tool - Premium</h3>
+        <p>Advanced prediction Sensex , Nifty , index , commodities  prediction tool CALL PUT  .Range cover CALL PUT 20 - 200 , 1 year license ,Platform  Windows , MAC , IOS , Android  .</p>
+        <h4 class="price-title">Pricing Details</h4>
+        <p class="price-sub">1 Year License</p>
+        <p class="price">₹2000</p> 
+        <!--
+        <h4><p class="price"> Pricing Details</p></h4>
+        <h4><p class="price"> 1 Year License </p></h4>
+        <p class="price">₹2000 </p>
+        -->
+        <!--
+        <p class="price">Pricing </p>
+        <h3>Pricing </h3>
+        <p>2000 rs  </p>
+         -->
+      </div>
+      <div class="project-card">
+        <h3>Derivative Prediction Tool Demo</h3>
+        <p>Demo version  .</p>
+        <!-- <a class="project-card" href="https://karthik2342323.github.io/PredictionViewOptionTradingToolsTrial/"><h3>Demo 1.1<h3></a> -->
+        <a href="https://karthik2342323.github.io/PredictionViewOptionTradingToolsTrial/" class="demo-btn">View Demo</a>  
+      </div>      
+    </div>
+  </section>
+
+  <div class="footer">
+    <p>Contact Us via </p> 
+    <p>Email      makwanakartik53@gmail.com</p> 
+    <p>Phone no  +91 96992 44705</p>            
+    <p>© 2025 Prediction View Option Trading Solutions</p>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('show');
+    }
+  </script>
+</body>
+</html>

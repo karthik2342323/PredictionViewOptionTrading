@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Option Trading Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  flex: 1 1 300px;
+  max-width: 350px;
+}
+
+.advisory-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.advisory-card h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.contact-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #0077cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.contact-btn:hover {
+  background: #005fa3;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <h1>Prediction View Option Trading Solutions</h1>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  </div>
+
+  <!-- Sidebar Menu -->
+  <div class="nav-links" id="navLinks">
+    <div class="close-btn" onclick="toggleMenu()">✖</div>
+    <a href="index.html" class="active">Home</a>
+    <a href="products.html">Products</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+  </div>
+
+  <!-- Home Content -->
+  <section>
+    <h2>Welcome to Option Trading Solutions</h2>
+    <p>We provide advanced prediction tools to help traders make better decisions in the derivative and equity markets. Indices Nifty, Sensex</p>
+  </section>
+
+  <!-- Index Section -->
+  <section>
+    <h2>Market Index Overview</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>NIFTY 50</h3>
+        <img src="option.png?text=NIFTY+50+Chart" alt="Nifty 50 Chart" style="width:100%; border-radius:8px;">
+      </div>
+      <div class="project-card">
+        <h3>SENSEX</h3>
+        <img src="b.png?text=Sensex+Chart" alt="Sensex Chart" style="width:100%; border-radius:8px;">
+      </div>
+      <div class="project-card">
+        <h3>BANK NIFTY</h3>
+        <img src="c.png?text=Bank+Nifty+Chart" alt="Bank Nifty Chart" style="width:100%; border-radius:8px;">
+      </div>
+      <div class="project-card">
+        <h3>FINNIFTY</h3>
+        <img src="option.png?text=Finnifty+Chart" alt="Finnifty Chart" style="width:100%; border-radius:8px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- Advisory Section -->
+
+<!--
+
+<section>
+  <h2>Trading Plans Overview</h2>
+  <div class="projects">
+
+    
+    <div class="project-card">
+      <div class="advisory-card">
+        <h3>Basic Plan</h3>
+        <div class="plan">
+          <p>Daily buy/sell calls (Nifty & Bank Nifty)</p>
+          <p class="price">₹1000 per month</p>
+        </div>
+        <hr>
+        <p><strong>Email:</strong> makwanakartik53@gmail.com</p>
+        <p><strong>WhatsApp:</strong> +91 96992 44705</p>
+        <a href="mailto:advisory@optionsolutions.com" class="contact-btn">Contact Now</a>
+      </div>
+    </div>
+
+     
+   
+    
+    <div class="project-card">
+      <div class="advisory-card">
+        <h3>Premium Plan</h3>
+        <div class="plan">
+          <p>Daily buy/sell calls + detailed reports</p>
+          <p class="price">₹2000 / 1 Year License</p>
+        </div>
+        <hr>
+        <p><strong>Email:</strong> makwanakartik53@gmail.com</p>
+        <p><strong>WhatsApp:</strong> +91 96992 44705</p>
+        <a href="mailto:makwanakartik53@gmail.com" class="contact-btn">Contact Now</a>
+      </div>
+    </div>
+
+
+
+
+  </div>
+</section>
+
+-->
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>Contact Us via </p> 
+    <p>Email      makwanakartik53@gmail.com</p> 
+    <p>Phone no  +91 96992 44705</p>            
+    <p>© 2025 Prediction View Option Trading Solutions</p>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
