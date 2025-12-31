@@ -20,9 +20,7 @@ Options Range
 20 , 40 
 
 
-Website 
 
-![1767123129689](https://github.com/user-attachments/assets/3af6bff8-4ff9-4a69-99f8-444d9439d6c4)
 
 
 
